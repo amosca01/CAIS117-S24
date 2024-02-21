@@ -6,6 +6,7 @@ Ab Mosca
 
 Importing functions demo 
 """
+import friday 
 
 def hello():
     print("Hello!")

@@ -8,6 +8,7 @@ Main function and importing notes
 """
 
 import salutations
+import friday 
 
 def talkToUser(start):
     if start:
@@ -17,17 +18,9 @@ def talkToUser(start):
         salutations.goodbye()
     
 def main():
-     talkToUser(1)
-
-main()
-
-
-
-
-# def main():
-#     talkToUser(0)
+     talkToUser(0)
     
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+     main()
     
 
