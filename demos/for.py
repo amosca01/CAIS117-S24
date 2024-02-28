@@ -28,7 +28,7 @@ Class notes on for loops
 # conversion table
 for i in range(100, -30, -10):
     celcius = (i-32)*5/9
-    print(i, "F is", celcius, "C")
+    print(i, "F is", round(celcius), "C")
 
 
 
