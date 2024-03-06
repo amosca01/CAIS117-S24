@@ -3,21 +3,20 @@
 # Recursive Python function to solve the tower of hanoi
 
 
-def TowerOfHanoi(n, source, destination, auxiliary):
+def TowerOfHanoi(n, start, end, helper):
   # base case
   if n == 1:
-    print("Move disk 1 from source", source, 
-         "to destination", destination)
+    print("Move disk 1 from", start, "to", end)
+  
   # recursive step
   else: 
-    TowerOfHanoi(n-1, source, auxiliary, destination)
-    print("Move disk", n, "from soure", source, 
-          "to destination", destination)
-    TowerOfHanoi(n-1, auxiliary, destination, source)
+    TowerOfHanoi(n-1, start, helper, end)
+    print("Move disk", n, "from", start, "to", end)
+    TowerOfHanoi(n-1, helper, end, start)
   
 def main():
   n = 4
-  TowerOfHanoi(n, 'A', 'B', 'C')
+  TowerOfHanoi(n, 'A', 'C', 'B')
   #A, B, C names of rods 
 
 if __name__ == "__main__":
