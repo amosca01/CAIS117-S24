@@ -1,7 +1,7 @@
 from graphics import *
 
 def main():
-    win = GraphWin("CSC111 Animated Ball", 600, 400)
+    win = GraphWin("CAIS117 Animated Ball", 600, 400)
     circ = Circle(Point(50,50), 10)
     circ.setFill( 'red' )
     circ.draw(win)
@@ -17,14 +17,7 @@ def main():
         x = circ.getCenter().getX()
         y = circ.getCenter().getY()
 
-        if x < 5:
-            dx = -dx
-        elif x > 595:
-            dx = -dx
-        if y < 5:
-            dy = -dy
-        elif y > 395:
-            dy = -dy 
+        
 
         
         
