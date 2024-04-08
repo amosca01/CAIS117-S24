@@ -36,12 +36,12 @@ noClass,italic,12,M,1-Apr,NO CLASS - Ab Sick ,,,
 ,,,W,3-Apr,Developing Applications ,,,
 ,inClass,,F,5-Apr,Paper prototyping & Proposal check-in,,,proj-proposal
 ,,13,M,8-Apr,Interaction,Ch 17.4,,
-,,,W,10-Apr,Introduction to algorithms,Ch 16,,
+,,,W,10-Apr,Working with Files ,,,
 noClass,italic,,F,12-Apr,NO CLASS - Personal Day,,,proj-prototypeI
-noClass,italic,14,M,15-Apr,NO CLASS - Marathon Monday,Ch 16,,
-,,,W,17-Apr,Working with Files ,,,
-,inClass,,F,19-Apr,Advanced Topics - NLP,,,"proj-prototypeII, ic07"
-,,15,M,22-Apr,Code for Good Spotlight,,,ic08
+noClass,italic,14,M,15-Apr,NO CLASS - Marathon Monday,,,
+,inClass,,W,17-Apr,Advanced Topics - Files / NLP,,,
+,inClass,,F,19-Apr,Advanced Topics - NLP,,,proj-prototypeII
+,inClass,15,M,22-Apr,Advanced Topics - NLP,,,ic06
 ,,,W,24-Apr,Advanced Topics - Visual Analytics,,,
 ,proj,,F,26-Apr,Final Project Work Session ,,,
 presy,proj ,16,M,22-Apr,Final Project Demo Day,,,"proj, reflection"
