@@ -11,6 +11,7 @@ def main():
     # Set up the window, draw a button
     win = GraphWin("Button Demo", 400, 400)
     btn = Button(Point(150,150), Point(250,250))
+    btn.setFill('purple')
     btn.draw(win)
 
     # Continue to loop until the user presses q
@@ -25,7 +26,8 @@ def main():
 
                 # Check if their click was within the y range of the button
                 if btn.getP1().getY() < mousePt.getY() < btn.getP2().getY():
-                    print("Button clicked at", mousePt)
+                    #print("Button clicked at", mousePt)
+                    btn.onClick()
 
 
 if __name__ == "__main__":
