@@ -64,10 +64,10 @@ def main():
 
   # gather input
   artist1 = input("Artist 1: ")
-  artist1_file = input("Artist 1 lyric file: ")
+  artist1_file = "txt/" + input("Artist 1 lyric file: ")
 
   artist2 = input("Artist 2: ")
-  artist2_file = input("Artist 2 lyric file: ")
+  artist2_file = "txt/" + input("Artist 2 lyric file: ")
   
   artist1_lyrics = get_lyrics(artist1_file)
   artist2_lyrics = get_lyrics(artist2_file)
